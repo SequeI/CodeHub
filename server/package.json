@@ -16,7 +16,7 @@
     "nodejs": "^0.0.0",
     "npx": "^3.0.0"
   },
-  "name": "sca-mvp",
+  "name": "server",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
