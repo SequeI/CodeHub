@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/Virtus0x/SCA-MVP/issues"
   },
-  "homepage": "https://github.com/Virtus0x/SCA-MVP#readme"
+  "homepage": "https://github.com/Virtus0x/SCA-MVP#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
