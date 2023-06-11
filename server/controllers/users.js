@@ -34,7 +34,7 @@ export const getUserFriends = async (req, res) => {
 
 export const addRemoveFriend = async (req, res) => {
     try {
-        const { id, friendId} = req.params;
+        const { id, friendId } = req.params;
         const user = await User.findById(id);
         const friend = await User.findById(friendId);
 
@@ -58,7 +58,7 @@ export const addRemoveFriend = async (req, res) => {
         );
 
         res.status(200).json(formattedFriends);
-    }catch (err) {
+    } catch (err) {
         res.status(404).json({ message: err.message })
     }
 }
