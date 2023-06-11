@@ -23,7 +23,7 @@ const PostSchema = new mongoose.Schema(
             of: Boolean,
         },
         comments: {
-            types: Array,
+            type: Array,
             default: []
         }
     }
@@ -32,4 +32,4 @@ const PostSchema = new mongoose.Schema(
 
 const Post = mongoose.model("Post", PostSchema);
 
-export default Post
+export default Post;
