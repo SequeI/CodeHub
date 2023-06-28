@@ -20,4 +20,4 @@ jobs:
       - name: Check style
         run: |
           cd server
-          npm run eslint
+          npm run lint
